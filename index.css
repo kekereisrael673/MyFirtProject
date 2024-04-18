@@ -20,7 +20,7 @@ nav {
 }
 nav ul {
     display: flex;
-    gap: 50px;
+    gap: 30px;
     align-items: center;
 }
 .logo {
@@ -30,19 +30,38 @@ nav ul {
     font-size: 15px;
     background-color: white;
     border: 1px solid rgb(92, 90, 90);
-    font-weight: bold;padding: 3px;
+    font-weight: bold;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .logo span {
     color: #f55f1d;
     font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .rightNav {
-    display: flex;
+    display: inline;
     gap: 100px;
+    margin-left: 500px;
 }
 select {
     border: none;
     background-color: #d7f5dc;
+}
+a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.login {
+    padding: 7px 15px;
+    border-radius: 8px;
+    border: 1px solid #20b15a;
+    background-color: #d7f5dc;
+}
+.register {
+    padding: 7px 15px;
+    border-radius: 8px;
+    border: none;
+    background-color: #20b15a;
 }
 .buttons {
     display: flex;
@@ -71,15 +90,61 @@ main {
     margin-left: 50px;
 }
 main h1 {
-    font-size: 3.5rem;
+    font-size: 3.4rem;
     margin-bottom: 5px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
 .group-38 {
-    width: 570px;
-    margin-left: 100px;
+    position: absolute;
+    width: 600px;
+    z-index: -1;
+    top: 85px;
+    left: 690px;
+    top: 100px;
     /*height: 678.89px; */
+}
+.frame-4 {
+    position: absolute;
+    z-index: -1;
+    left: 610px;
+}
+.frame-5 {
+    position: absolute;
+    z-index: -1;
+    left: 1080px;
+    top: 110px;
+}
+.frame-6 {
+    position: absolute;
+    left: 795px;
+    top: 310px;
+}
+.rectangle-1 {
+    position: absolute;
+    left: 720px;
+    top: 0px;
+}
+.rectangle-2 {
+    position: absolute;
+    left: 1000px;
+    top: 150px;
+}
+.rectangle-3 {
+    position: absolute;
+    left: 815px;
+    top: 230px;
+}
+.rectangle-4 {
+    position: absolute;
+    left: 1100px;
+    top: 330px;
+}
+.rectangle-5 {
+    position: absolute;
+    left: 978px;
+    top: 50px;
+    z-index: -1;
 }
 .get--started {
     width: 110px;
